@@ -1,0 +1,245 @@
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .inner_container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /*Navigation*/
+    .menu_bar {
+        display: block;
+    }
+
+    .nav_menu_contacts {
+        display: none;
+    }
+
+    .menu_bar i {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .navigation {
+        height: 90px;
+        backdrop-filter: blur(5px);
+        position: sticky;
+        border-bottom: 1px solid #353434;
+    }
+
+    .nav_menu {
+        padding: 30px 30px;
+    }
+
+    .nav_menu_items {
+        display: none;
+    }
+
+    .nav_menu_logo {
+        width: 36%;
+    }
+
+    .nav_menu_contacts_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav_menu_contacts_2 li {
+        background-color: #1D71EE;
+        padding: 8px;
+        border-radius: 6px;
+    }
+
+    .nav_menu_contacts_2 li:nth-child(1) {
+        background-color: transparent;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #585757;
+    }
+
+    .header {
+        height: 520px;
+    }
+
+    /*Hero section*/
+    .hero_content {
+        transform: translateY(50%);
+    }
+
+    .hero_content img {
+        transform: scale(1.5, 1.5);
+    }
+
+    .hero_content h1 {
+        font-size: 40px;
+    }
+
+    /*Experience info*/
+    .experience_items {
+        padding: 0 20px;
+    }
+
+    .experience_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /*Frame boxes*/
+    .media {
+        display: block;
+    }
+
+    .tablet_container {
+        display: none;
+    }
+
+    .media {
+        display: block;
+    }
+
+    .media_frames {
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        grid-template-rows: repeat(9, auto);
+        justify-content: center;
+        grid-gap: 20px;
+    }
+
+    .boxes {
+        grid-auto-flow: column;
+    }
+
+    /*Frame boxes*/
+    .media_frames {
+        margin: 50px 0;
+    }
+
+    /*Project info*/
+    .project_box {
+        width: 410px;
+    }
+
+    .project_box p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #eeeded;
+        width: 250px;
+        padding-left: 50px;
+    }
+
+    .project_box img {
+        width: 95px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    /*results*/
+
+    .results_box {
+        width: 270px;
+    }
+
+    .results_box p {
+        font-size: 18px;
+        width: 240px;
+    }
+
+    .results_box_icons {
+        width: 120px;
+        border-top: 1px solid #424141d7;
+        padding-top: 15px;
+    }
+
+    .results_box_icons i {
+        font-size: 45px;
+        color: #1960bd;
+    }
+
+    /*Input section*/
+    .input_title h2 {
+        font-size: 30px;
+    }
+
+    .first_row {
+        display: grid;
+        grid-template-columns: repeat(2, 420px);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+        margin: 30px 0;
+    }
+
+    
+    /*input*/
+    .second_row {
+        display: grid;
+        grid-template-columns: repeat(1, 860px);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .input_box_1 {
+        background-color: #191E27;
+        border-radius: 20px;
+        z-index: 0;
+    }
+
+    .input_box_2 {
+        background-color: #272d36;
+        border-radius: 20px;
+        padding: 25px;
+        position: relative;
+        top: -25px;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .input_box_2 label {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .input_box_2 input {
+        width: 800px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: 1px solid #757373;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin: 10px 0;
+    }
+
+    .input_box_2 button {
+        width: 800px;
+        height: 40px;
+        background-color: #1960bd;
+        border: none;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .input_box_2 button a {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+
+    }
+
+    /*Footer*/
+    .footer_list {
+        margin-right: 50px;
+    }
+}
